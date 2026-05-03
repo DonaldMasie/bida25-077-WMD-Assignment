@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Gen-Z Wear</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="navbar">
+            <div class="logo">
+              <img src="Image/1.5.png" width="125px">
+              
+            </div>  
+            <h1 class="brand-name">GEN-Z WEAR APPAREL</h1>
+            <div class="menu-toggle" id="menu-toggle">☰</div>                          
+          <nav>
+            <ul id="nav-links">
+                
+                <li><a href="index.html">Home</a></li>               
+                <li><a href="shop.html">Shop Now</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span id="cart-count">0</span></a></li>
+            </ul>
+            
+          </nav>
+          
+        </div>
+
+    <div class="cart-container">
+        <h1>Your Shopping Cart</h1>
+
+       <div class="cart-header">
+         <p>Product</p>
+         <p>Price</p>
+         <p>Quantity</p>
+         <p>Total</p>
+         <p>Action</p>
+      </div>
+
+        <div id="cart-items"></div>
+
+        <div class="cart-summary">
+            <h2 id="total-price"></h2>
+            <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+        </div>
+    </div>
+
+
+
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>    
+<script src="cart.js"></script>
+</body>
+</html>
