@@ -109,7 +109,7 @@ nav ul li a:hover {
  
  .heading {
  height: 100vh;
- background: url("Image/bg-img.jpeg") center/cover no-repeat;
+ background: url("images/bg-img.jpeg") center/cover no-repeat;
  display: flex;
  align-items: center;
  justify-content: center;
