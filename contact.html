@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Gen-Z Wear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+            <div class="logo">
+              <img src="image/1.5.png" width="125px">
+              
+            </div>  
+            <h1 class="brand-name">GEN-Z WEAR APPAREL</h1>
+            <div class="menu-toggle" id="menu-toggle">☰</div>                          
+          <nav>
+            <ul id="nav-links">
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop Now</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="About.html">About</a></li>
+                
+            </ul>
+            
+          </nav>
+</div>
+
+
+<div class="contact-section">
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p>Email: masiedonaldkatlego@gmail.com</p>
+    <p>Phone: 267 77959740</p>
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>Gen-Z Wear</h3>
+      <p>Your go-to fashion destination for the latest trends.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 GEN-Z Wear. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+</body>
+</html>
